@@ -59,6 +59,7 @@ def greeting_agent():
         "Did you know? AI helps doctors detect diseases earlier!"
         "AI helps analyze vast amounts of data from space missions and can even make decisions to guide the missions themselves. " #new fact
         "AI is being used to create art, music, and even write stories!" #new fact
+        "AI algorithms can learn and improve from experience without being explicitly programmed!" #new fact
         ]
     
     print(f"\n{random.choice(ai_facts)}")
